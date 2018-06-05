@@ -19,13 +19,9 @@
       },
       computed: {
         logoClass() {
-          if (this.className) {
-            return this.className
-          } else {
-            return 'logo'
-          }
+          return this.className || 'logo'
         }
-  }
+      }
     }
 </script>
 

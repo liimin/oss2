@@ -26,6 +26,7 @@ export default {
     background: #F7F7F7;
     border-top: 1px solid #ced5df;
     color: #888;
+    z-index: 1;
 }
 </style>
 
